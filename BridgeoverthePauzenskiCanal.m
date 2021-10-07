@@ -48,10 +48,6 @@ k11 = PlaneFrameElementStiffness(E, A, I, L11, theta5);
 k12 = PlaneFrameElementStiffness(E, A, I, L12, 270);
 k13 = PlaneFrameElementStiffness(E, A, I, L13, theta6);
 
-% Starting to obtain global stiffness matrix as zero matrix size of 30x30.
-%K = zeros(30, 30); 
-%This is not correct, because the number of degrees of freedom (DoF) 
-%is calculated for plane frame elements only. And what about springs?
 %The springs have also DoF: nodes 11, 12, 13 and 14 - every node has one
 %DoF, so total number of DoFs = 10 * 3 + 4 * 1 = 34
 K = zeros(34, 34);
