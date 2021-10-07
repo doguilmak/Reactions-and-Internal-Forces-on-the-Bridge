@@ -2,7 +2,7 @@ clc
 clear
 
 E = 210e6 % kPa
-A = 0.75 % m²
+A = 0.75 % mÂ²
 I = 0.141 % m4
 q = 20 % kN/m
 rad2deg = 180 / pi; % degree
@@ -79,7 +79,6 @@ K = SpringAssemble(K, ks1, 20, 34);
 %only for systems that contain only spring elements (no other element types).
 %Since spring nodes have only one degree of freedom, you need to provide 
 %freedom degree numbers instead of node numbers to properly assemble the springs.
-%In our case (see attached file "Solution Step 3.pdf"):
 
 
 %Now you need to extract 30 columns and 30 rows from the global stiffness matrix.
