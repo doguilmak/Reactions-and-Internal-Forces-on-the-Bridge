@@ -10,6 +10,6 @@ Step by step how the calculations are made is given in the **Presentation about 
 
 If you have something to say to me please contact me: 
 
- - Twitter: [Doguilmak](https://twitter.com/Doguilmak).  
+ - Twitter: [Doguilmak](https://twitter.com/Doguilmak)  
  - Mail address: doguilmak@gmail.com
  
