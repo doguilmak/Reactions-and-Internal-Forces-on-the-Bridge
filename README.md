@@ -256,7 +256,7 @@ Rotations at nodes
 
 In this step, finally, we obtain the reactions at nodes 1st, 2nd, 6th, 7th, 8th, 9th, and 10th forces (axial forces, shears, and moments) in each plane frame element using MATLAB as follows. First, we set up the global nodal displacement vector $U$, then we calculate the global nodal force vector $F$ (as $kN$).
 
-**Reactions in each nodes:**
+**Reactions in each nodes (as $kN$):**
 
  - Positive numbers: upward 
  - Negative numbers: downward
