@@ -247,8 +247,8 @@ The backslash operator “\” is used for Gaussian elimination. We can clearly 
 
 **Rotations at nodes (as rad):**
 
-Positive numbers: Counterclock-wise
-Negative numbers: Clockwise.
+ - Positive numbers: Counterclock-wise
+ - Negative numbers: Clockwise.
 
 Rotations at nodes
 
