@@ -250,7 +250,7 @@ Now we need to extract 30 columns and 30 rows from the global stiffness matrix.
 
 The backslash operator “\” is used for Gaussian elimination. We can clearly see our displaments at nodes. 
 
-**Rotations at nodes (as rad):**
+**Rotations at nodes (as $rad$):**
 
  - Positive numbers: Counterclock-wise
  - Negative numbers: Clockwise.
