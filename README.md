@@ -143,12 +143,15 @@ First of all, we made all the necessary functions on Octave such as **SpringElem
 ### Spring elements:
 
 $$ks1 = 10^5 kN/m$$
+
 $$ks2 = 2 * 10^5 kN/m$$
 
 ### Plane frame elements:
 
 $$E = 210 * 10^6 kPa$$ 
+
 $$A = 0.75 m^2$$
+
 $$I = 0.141 m^4$$
 
 <br>
