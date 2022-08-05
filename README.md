@@ -144,7 +144,7 @@ First of all, we made all the necessary functions on Octave such as **SpringElem
 
 $$ks1 = 10^5 kN/m$$
 
-$$ks2 = 2 * 10^5 kN/m$$
+$$ks2 = 2 \cdot 10^5 kN/m$$
 
 ### Plane frame elements:
 
