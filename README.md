@@ -148,7 +148,7 @@ $$ks2 = 2 \cdot 10^5 kN/m$$
 
 ### Plane frame elements:
 
-$$E = 210 * 10^6 kPa$$ 
+$$E = 210 \cdot 10^6 kPa$$ 
 
 $$A = 0.75 m^2$$
 
