@@ -21,11 +21,11 @@ The spring element is a one-dimensional finite element where the local and globa
 
 ![Nodes](png/1.png)
 
-<small>Nodes</small>
+<small>Fig.1 - Nodes</small>
 
 ![Elements](png/2.png)
 
-<small>Elements</small>
+<small>Fig.2 - Elements</small>
 
 #### Necessery functions for calculading
 
@@ -59,7 +59,7 @@ The plane frame element is a two-dimensional finite element with both local and 
 
 ![Elements_orientation](png/3.png)
 
-<small>Elements orientation</small>
+<small>Fig.3 - Elements orientation</small>
 
 #### Necessery functions for calculading
 
@@ -229,7 +229,7 @@ First, we obtain K. Then, we make a zero matrix of size $34x34$, then make 13 ca
 
 ![Degrees_of_freedome](png/4.png)
 
-<small>Degrees of Freedom</small>
+<small>Fig.4 - Degrees of Freedom</small>
 
 The number of degrees of freedom (DoF) is calculated for plane frame elements only. The springs have also DoF: nodes 11, 12, 13 and 14 - every node has one DoF, so total number of DoFs:
 
@@ -262,7 +262,7 @@ The last arguments of the **SpringAssemble** function are node numbers only for 
 
 ![nodal_forces](png/5.png)
 
-<small>Nodal forces</small>
+<small>Fig.5 - Nodal forces</small>
 
 Now we need to extract 30 columns and 30 rows from the global stiffness matrix.
 
