@@ -7,7 +7,6 @@ In this work, we are going to determine and calculate internal forces(M, N, T) a
 
 <br>
 
-
 ## Description
 
 ### What are internal forces?
@@ -20,9 +19,13 @@ Moment force, lastly, is a turning result of a force multiplied by the distance 
 
 The spring element is a one-dimensional finite element where the local and global coordinates coincide. It should be noted that the spring element is the simplest finite element available.
 
-![Degrees_of_freedome](png/1.png)
+![Nodes](png/1.png)
 
-![Degrees_of_freedome](png/2.png)
+<small>Nodes</small>
+
+![Elements](png/2.png)
+
+<small>Elements</small>
 
 #### Necessery functions for calculading
 
@@ -54,7 +57,9 @@ Spring Assemble on MATLAB:
 
 The plane frame element is a two-dimensional finite element with both local and global coordinates. The plane frame element has modulus of elasticity $E$, moment of inertia $I$, cross-sectional area $A$, and length $L$. Each plane frame element has two nodes and is inclined with an angle $θ$ measured counterclockwise from the positive global X axis.
 
-![Degrees_of_freedome](png/3.png)
+![Elements_orientation](png/3.png)
+
+<small>Elements orientation</small>
 
 #### Necessery functions for calculading
 
@@ -224,6 +229,8 @@ First, we obtain K. Then, we make a zero matrix of size $34x34$, then make 13 ca
 
 ![Degrees_of_freedome](png/4.png)
 
+<small>Degrees of Freedom</small>
+
 The number of degrees of freedom (DoF) is calculated for plane frame elements only. The springs have also DoF: nodes 11, 12, 13 and 14 - every node has one DoF, so total number of DoFs:
 
 $$DoFs = 10 * 3 + 4 * 1 =34$$
@@ -254,6 +261,8 @@ $$DoFs = 10 * 3 + 4 * 1 =34$$
 The last arguments of the **SpringAssemble** function are node numbers only for systems that contain only spring elements (no other element types). Since spring nodes have only one degree of freedom, you have to provide freedom degree numbers instead of node numbers to properly assemble the springs.
 
 ![nodal_forces](png/5.png)
+
+<small>Nodal forces</small>
 
 Now we need to extract 30 columns and 30 rows from the global stiffness matrix.
 
