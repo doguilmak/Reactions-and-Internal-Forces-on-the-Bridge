@@ -239,7 +239,7 @@ First, we obtain K. Then, we make a zero matrix of size $34x34$, then make 13 ca
 
 The number of degrees of freedom (DoF) is calculated for plane frame elements only. The springs have also DoF: nodes 11, 12, 13 and 14 - every node has one DoF, so total number of DoFs:
 
-$$DoFs = 10 * 3 + 4 * 1 =34$$
+$$DoFs = 10 \cdot 3 + 4 \cdot 1 =34$$
 
 	K = zeros(34, 34);
 
