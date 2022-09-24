@@ -152,6 +152,9 @@ You can check Advanced Structural Analysis by Prof. Devdas Menon on [Matrix Anal
 
 First of all, we made all the necessary functions on Octave such as **SpringElementStiffness**, **SpringAssemble**, **PlaneFrameElementLength**, **PlaneFrameElementStiffness** and **PlaneFrameAssemble**. We are going to use them in code, and we are going to place convenient values into them.
 
+![Spring_and_frame_elements](png/6.png)
+
+<small>Fig.4 - Spring and frame elements</small>
 
 ### Spring elements:
 
@@ -177,8 +180,8 @@ Spring and plane frame elements on MATLAB:
     q = 20 % kN/m
     rad2deg = 180 / pi; % degree
 
-	ks1 = SpringElementStiffness(1e5) % kN/m
-	ks2 = SpringElementStiffness(2e5) % kN/m
+    ks1 = SpringElementStiffness(1e5) % kN/m
+    ks2 = SpringElementStiffness(2e5) % kN/m
 
 ### Lengths
 
