@@ -1,5 +1,4 @@
-
-# Reactions and Internal Forces on the Bridge Over the Pauzeński Canal
+**<h1 align=center><font size = 5> Reactions and Internal Forces on the Bridge Over the Pauzeński Canal</font></h1>**
 
 ![Bridge](png/0_1.png)
 
